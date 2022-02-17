@@ -1,6 +1,7 @@
 import Head from "next/head";
+import React, { FunctionComponent } from "react";
 
-const PixiTemplate: React.FC = props => (
+const PixiTemplate: FunctionComponent = props => (
   <>
     <Head>
       <meta title="react-pixi-demo" />
