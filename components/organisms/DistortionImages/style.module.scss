@@ -1,0 +1,13 @@
+.DistortionImages {
+  width: 100%;
+  text-align: center;
+
+  & &__image + &__image {
+    margin-top: 60px;
+  }
+
+  & &__imageBody {
+    width: 400px;
+    object-fit: contain;
+  }
+}
