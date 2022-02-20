@@ -2,6 +2,15 @@
   "plugins": ["prettier"],
   "extends": ["plugin:react/recommended"],
   "rules": {
-      "prettier/prettier": "error"
-  }
+      "prettier/prettier": "error",
+      "react/react-in-jsx-scope": "off"
+  },
+  "parserOptions": {
+    "ecmaVersion": 7, 
+    "sourceType": "module",
+    "ecmaFeatures": {
+        "tsx": true
+    }
+  },
+  "parser": "@typescript-eslint/parser"
 }
